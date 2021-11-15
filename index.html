@@ -14,73 +14,13 @@
 <body>
 
   <img src="assets/img/Pendu.png" id="myImg1" alt="pendu" width="20%" height="20%" />
-  <div class=container_principal-fluid>
-  <div class=row>
   
-  <div id="myKeyboard" class="height= 10 px">
-     <Button id="myKeyA" type="button" value="A"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,A));"</Button>
-      <Button id="myKeyB" type="button" value="B"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,B));"</Button>
-      <Button id=" myKeyC" type="button" value="C"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,C));"</Button>
-      <Button id=" myKeyD" type="button" value="D"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,D));"</Button>
-      <Button id=" myKeyE" type="button" value="E"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,E));"</Button>
-      <Button id=" myKeyF" type="button" value="F"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,F));"</Button>
-      <Button id=" myKeyG" type="button" value="G"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,G));"</Button>
-      <Button id=" myKeyH" type="button" value="H"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,H));"</Button>
-      <Button id=" myKeyI" type="button" value="I"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,I));"</Button>
-      <Button id=" myKeyJ" type="button" value="J"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,J));"</Button>
-      <Button id=" myKeyK" type="button" value="K"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,K));"</Button>
-      <Button id=" myKeyL" type="button" value="L"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,L));"</Button>
-      <Button id=" myKeyM" type="button" value="M"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,M));"</Button>
-      <Button id=" myKeyN" type="button" value="N"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,N));"</Button>
-      <Button id=" myKeyO" type="button" value="O"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,O));"</Button>
-      <Button id=" myKeyP" type="button" value="P"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,P));"</Button>
-      <Button id=" myKeyQ" type="button" value="Q"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,Q));"</Button>
-      <Button id=" myKeyR" type="button" value="R"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,R));"</Button>
-      <Button id=" myKeyS" type="button" value="S"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,S));"</Button>
-      <Button id=" myKeyT" type="button" value="T"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,T));"</Button>
-      <Button id=" myKeyU" type="button" value="U"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,U));"</Button>
-      <Button id=" myKeyV" type="button" value="V"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,V));"</Button>
-      <Button id=" myKeyW" type="button" value="W"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,W));"</Button>
-      <Button id=" myKeyY" type="button" value="Y"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,Y));"</Button>
-      <Button id=" myKeyZ" type="button" value="Z"
-        onclick="Verif_Presence_Caract_Ds_Mot(get_random_animals(animals_farm,Z));"</Button>
-    </div>
+  <div id="indexLetter" class="row myLet justify-content-center"></div>
+  <div id="myKeyboard" class="row myLet justify-content-center"></div>
+  <div>
+     <button class="row myLet justify-content-center" id="Action_Jouer" type="button" onclick="Action_Jouer()">Jouer</button>
   </div>
-
-    <div class="row">
-      <div class="col-sm-3"></div>
-      <div class="col-sm-6 p-4">
-        <button id="Action_Jouer" type="button" class="btn btn-primary" onclick="Action_Jouer()">Jouer</button>
-      </div>
-      <div class="col-sm-3"></div>
-    </div>
-  </div>
-
-
+  
   <script src="./script.js"></script>
 
   <!-- Optional JavaScript; choose one of the two! -->
@@ -94,4 +34,5 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 -->
 </body>
+
 </html>
